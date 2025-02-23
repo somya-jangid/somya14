@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #E0E0E0;
+}
+
+header {
+  background-color: rgba(30, 30, 30, 0.6);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #E0E0E0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
+
+footer {
+  background-color: #1E1E1E;
+  padding: 20px;
+  text-align: center;
+  color: #A0A0A0;
+}
+
+button {
+  background-color: #007BFF;
+  color: #E0E0E0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hero {
+  height: 100vh;
+  background: url('https://unsplash.com/photos/a-city-at-night-with-tall-buildings-and-lights-sP-pjqCboQU') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #E0E0E0;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.featured-projects {
+  padding: 50px 20px;
+  background-color: #1E1E1E;
+}
+
+.projects {
+  display: flex;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: rgba(30, 30, 30, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  background-color: rgba(30, 30, 30, 0.6);
+  border: 1px solid #333333;
+  padding: 10px;
+  color: #E0E0E0;
+  border-radius: 5px;
+}
+
+.contact button {
+  align-self: flex-start;
+}
